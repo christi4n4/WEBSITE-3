@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative; /* Required for absolute positioning */
+    background-color: #9305f8; /* Set initial background color */
+    color: white; /* Set text color */
+}
+
+/* Create corner text */
+.corner-text {
+    position: absolute;
+    font-size: 80px;
+    font-weight: bold;
+    opacity: 0.2; /* Set opacity to make it less prominent */
+}
+
+.top-left {
+    top: 0;
+    left: 0;
+    transform: rotate(-45deg); /* Rotate text */
+}
+
+.top-right {
+    top: 0;
+    right: 0;
+    transform: rotate(45deg); /* Rotate text */
+}
+
+.bottom-left {
+    bottom: 0;
+    left: 0;
+    transform: rotate(45deg); /* Rotate text */
+}
+
+.bottom-right {
+    bottom: 0;
+    right: 0;
+    transform: rotate(-45deg); /* Rotate text */
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.7); /* Add a semi-transparent background color for better readability */
+    text-align: center; /* Centering navigation links */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block; /* Make the list display horizontally */
+}
+
+nav ul li {
+    margin: 0;
+    display: inline; /* Display list items inline */
+}
+
+nav ul li a {
+    display: inline-block; /* Make anchor tags display as blocks */
+    padding: 14px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+main {
+    padding: 20px;
+    text-align: center; /* Center main content */
+}
+
+.container {
+    width: 80%; /* Set width of container */
+    margin: 0 auto; /* Center container */
+}
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="WHERE.HTML">WHERE</a></li>
+            <li><a href="WHY.HTML">WHY</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>FASHION</h1>
+        <p>DEFINITION: “Fashion is a dynamic force that ignites our sense of self-worth, enhances our creativity, and reflects our inner beauty”</p>
+    <P>FASHION is A SENSE OF ART. A MASTERPIECE that was crafted together from designer to consumer to project creativity as our bodies are the blank canvas.</P>
+    </main>
+
+    <div class="corner-text top-left">FASHION</div>
+<div class="corner-text top-right">FASHION</div>
+<div class="corner-text bottom-left">FASHION</div>
+<div class="corner-text bottom-right">FASHION</div>
+
+</body>
+</html>
